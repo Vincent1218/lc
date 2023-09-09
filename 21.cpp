@@ -28,4 +28,4 @@ public:
         tail->next = l1 ? l1 : l2;
         return head->next;
     }
-};
+} ;

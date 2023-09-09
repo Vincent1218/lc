@@ -3,7 +3,7 @@ public:
     long long totalCost(vector<int>& costs, int k, int candidates) {
       long long ans = 0;
         // map to store the index of the original array
-        map<int, vector<ll>> indexBefore;
+        map<int, vector<long long>> indexBefore;
         for (int i = 0; i < costs.size(); i++){
             indexBefore[costs[i]].push_back(i);
         }

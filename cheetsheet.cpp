@@ -38,7 +38,7 @@ str.replace(pos, len, "newStr");             // replace substring starting from 
 str1.compare(str2);                          // 0 equal; -1 str1 comes first in lexicographic order
 void reverse(str.begin(), str.end());        // reverse string.       str changes!!!!!!!!!!  no return value
 
-#include <sstream>                        // similar to StringBuilder in Java
+#include <sstream>                        // sitmilar to StringBuilder in Java
 stringstream ss;
 ss << "year" << ' ' << 2017;              // accept char, string and number(int, float, double)
 ss.str();                                 // convert sstream to string
@@ -119,6 +119,7 @@ Set.erase(val);
 Set.erase(iterator);
 Set.size();
 Set.empty();
+Set.clear();
 if(Set.find(1) != Set.end()) cout << "found" << endl;   // find val  equivalent to set.contains(val)
 for(iter = Set.begin(); iter != Set.end(); ++iter)      // traverse
     cout << *iter <<endl;
