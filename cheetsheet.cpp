@@ -143,6 +143,7 @@ queue<int> q;
 s.top();                                       // access the top element
 s.push();
 s.pop();
+
 q.front();                                     // access the first element in queue
 q.pop();                                       // does not return element !!!!!
 q.empty();
@@ -159,6 +160,9 @@ struct cmp{
 };
 
 priority_queue<Node*, vector<Node*>, cmp> pq;  // NOTE:  the format is different for sort function!!!
+priority_queue <int, vector<int> , greater <int>> pq; // min heap
+
+
 pq.push(new Node(1, 2));
 
 #include<deque>
